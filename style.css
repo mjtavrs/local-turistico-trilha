@@ -6,15 +6,114 @@
 
 body {
     background-color: #f5f4f0;
-    height: 100dvh;
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
     font-size: 1rem;
+    margin: 88px 0 48px;
+}
+
+h1, h2, h3 {
+    color: #1b1b1b;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 4px;
+}
+
+h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
 }
 
 p {
+    color: #333;
     font-weight: normal;
 }
+
+img {
+    border-radius: 28px;
+    width: 100%;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1120px;
+}
+
+header {
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 40px;
+}
+
+main section:first-child {
+    margin: 64px 0;
+}
+
+main section:last-child {
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 40px;
+}
+
+#subtitle {
+    font-style: italic;
+    text-align: center;
+}
+
 .headline {
     color: #e1264f;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#cardTravelList .cardTravel + .cardTravel {
+    padding-top: 48px;
+}
+
+.destinationImageContainer {
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+.destinationImageContainer img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.cardTravel p + p {
+    font-weight: bold;
+}
+
+ul li {
+    font-weight: bold;
+    margin-left: 24px;
+}
+
+#history {
+    color: #0c51a7;
+}
+
+#couple {
+    color: #591b98;
+}
+
+#family {
+    color: #e5245e;
+}
+
+#budget {
+    color: #e95e10;
+}
+
+li::marker {
+    color: #333;
+}
+
+#description {
+    padding: 40px 0 65px;
+
 }
