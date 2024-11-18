@@ -1,9 +1,20 @@
-:root {
-    font-weight: bold;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: #f5f4f0;
+    height: 100dvh;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+p {
+    font-weight: normal;
+}
+.headline {
+    color: #e1264f;
 }
